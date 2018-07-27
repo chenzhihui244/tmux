@@ -16,9 +16,9 @@ $ sudo apt-get install xsel
 
 ```bash
 $ cd
-$ rm .tmux.conf
 $ git clone https://github.com/jarsonfang/tmux.git
-$ ln -s tmux/tmux.conf .tmux.conf
+$ ln -sf tmux/tmux.conf .tmux.conf
+$ ln -sf tmux/tmux-statusline.conf .tmux-statusline.conf
 ```
 
 add the following line to `~/.bash_aliases` file and then `source ~/.bash_aliases`:
